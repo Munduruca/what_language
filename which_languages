@@ -1,0 +1,6 @@
+#in order to know which languages are availabe,
+#we can do like this
+
+from nltk.corpus import stopwords
+languages = stopwords.fileids()
+print(languages)
